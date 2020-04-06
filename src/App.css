@@ -1,0 +1,35 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 169, 45);
+    background: radial-gradient(circle,rgb(255, 196, 0), #df8005);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+
+  .font1 {
+    font-size: larger;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 0.4cm;
+    width: 58%;
+  }
+
+  .font2 {
+    font-size: large;
+    width: 58%;
+  }
+
+  .font3 {
+    color: white;
+  }
+
+
+  
