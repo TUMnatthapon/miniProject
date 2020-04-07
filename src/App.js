@@ -26,9 +26,9 @@ firebase.initializeApp(firebaseConfig);
 
 const s = {
     container: "screen dGray col",
-    header: "flex1 fCenter fSize2 font3",
+    header: "flex1 Center Size font3",
     main: "flex8 white",
-    footer: "flex1 fCenter font3"
+    footer: "flex1 Center font3"
 };
 
 const slides = [slide1, slide2, slide3, slide4, slide5];
@@ -82,7 +82,7 @@ class App extends Component {
         if (!this.state.isSignedIn) {
             
             return (
-                <section>
+                
                     <div className={s.container}>
                         <div className={s.header} onClick={() => this.openModal()} >Click To Login.</div>
                         <Modal  visible={this.state.visible}  width="300" height="230" effect="fadeInUp" onClickAway={() => this.closeModal()}>
@@ -94,7 +94,7 @@ class App extends Component {
                         </div>
                         <div className={s.footer}>◄ DEVELOPER - BY NATTHAPON CHUAISENG ►</div>
                     </div>
-                </section>
+                
             );
         }
         
