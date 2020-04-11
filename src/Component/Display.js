@@ -4,11 +4,13 @@ import 'firebase/auth';
 
 const Display = props => {
     return (
-        <div className='bearlist-container'>
-            <h1> TestProject 1</h1>
-            <p>Welcome {firebase.auth().currentUser.displayName}! You are now signed-in!</p>
-            
-        </div>
+        <div className="container">
+        <h1>FirebaseUI-React</h1>
+        <h1> with Firebase Authentication</h1>
+        <p>Welcome {firebase.auth().currentUser.displayName}! You are now signed-in!</p>
+          <img id="photo" className="pic" src={firebase.auth().currentUser.photoURL}/>
+        <button onClick={() => firebase.auth().signOut()}>Sign-out</button>
+      </div>
 
     )
 }

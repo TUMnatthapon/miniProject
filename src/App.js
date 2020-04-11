@@ -26,7 +26,7 @@ firebase.initializeApp(firebaseConfig);
 
 const s = {
     container: "screen dGray col",
-    header: "flex1 Center Size font3",
+    header: "flex1 Center Size font3 click",
     main: "flex8 white",
     footer: "flex1 Center font3"
 };
@@ -101,7 +101,6 @@ class App extends Component {
         return (
             <div className="container">
                 <Display />
-                <button onClick={() => firebase.auth().signOut()}>Sign-out</button>
             </div>
         );
     }
