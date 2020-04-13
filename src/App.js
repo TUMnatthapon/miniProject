@@ -34,9 +34,7 @@ const s = {
 const slides = [slide1, slide2, slide3, slide4, slide5];
 
 class App extends Component {
-
     state = { isSignedIn: false };
-
     uiConfig = {
         signInFlow: 'popup',
         signInOptions: [
