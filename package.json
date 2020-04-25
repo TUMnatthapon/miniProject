@@ -12,9 +12,12 @@
         "react-awesome-modal": "^2.0.5",
         "react-dom": "^16.6.3",
         "react-firebaseui": "^4.1.0",
+        "react-redux": "^7.2.0",
+        "react-router-dom": "^5.1.2",
         "react-scripts": "2.1.1",
         "reactjs-popup": "^1.5.0",
         "reactstrap": "^8.4.1",
+        "redux": "^4.0.5",
         "rodal": "^1.8.1"
     },
     "scripts": {
