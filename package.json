@@ -1,40 +1,40 @@
 {
-    "name": "react-slideshow",
-    "version": "0.1.0",
-    "private": true,
-    "homepage": "https://ashwanth1109.github.io/ReactSlideshow/",
-    "dependencies": {
-        "bootstrap": "^4.4.1",
-        "firebase": "^7.13.2",
-        "firebaseui": "^4.5.0",
-        "gh-pages": "^2.0.1",
-        "react": "^16.6.3",
-        "react-awesome-modal": "^2.0.5",
-        "react-dom": "^16.6.3",
-        "react-firebaseui": "^4.1.0",
-        "react-redux": "^7.2.0",
-        "react-router-dom": "^5.1.2",
-        "react-scripts": "2.1.1",
-        "reactjs-popup": "^1.5.0",
-        "reactstrap": "^8.4.1",
-        "redux": "^4.0.5",
-        "rodal": "^1.8.1"
-    },
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
+  "name": "cart",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@firebase/firestore": "^1.14.1",
+    "firebase": "^7.14.1",
+    "firebaseui": "^4.5.0",
+    "react": "^16.9.0",
+    "react-awesome-modal": "^2.0.5",
+    "react-dom": "^16.9.0",
+    "react-firebaseui": "^4.1.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
+  }
 }
