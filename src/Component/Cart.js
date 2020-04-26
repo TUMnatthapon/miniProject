@@ -52,7 +52,7 @@ const Cart = (props) => {
 
             <div className="checkout">
                 <h1 className="Total"> Total {Total()} THB </h1>
-                <button className="btn" onClick={()=>{ alert('Thank you have a good day'); }} >checkout</button>
+                <button className="btn" onClick={()=>{ alert('Thank you have a good day.'); }} >checkout</button>
             </div>
         </div>
 
